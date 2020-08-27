@@ -1,16 +1,12 @@
 function phAnalyzer(phValue)  {
   if  (phValue >= 0 && phValue < 7) {
-    console.log('acidic');
-    return 'acidic';
+    return 'acidic', console.log('acidic');
   } else if (phValue === 7 ) {
-    console.log('neutral');
-    return 'neutral';
+    return 'neutral', console.log('neutral');;
   } else if (phValue >= 8 && phValue < 15)  {
-    console.log('alkaline')
-    return 'alkalin';
+    return 'alkalin', console.log('alkaline');
   }
-  console.log('invalid pH value');
-  return 'invalid pH value'
+  return 'invalid pH value', console.log('invalid pH value');
 }
 
 phAnalyzer(0);
