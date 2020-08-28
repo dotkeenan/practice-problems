@@ -1,7 +1,7 @@
 
 function sumArray(numbersArray) {
   var total = 0;
-  for (i = 0; i < numbersArray.length; i++) {
+  for (var i = 0; i < numbersArray.length; i++) {
     total += numbersArray[i];
   }
   return total
