@@ -4,7 +4,7 @@ function meanCalculator(numbersArray) {
   total += numbersArray[i];
   var mean = total / (numbersArray.length);
   }
-  return mean.toFixed(2);
+  return parseFloat(mean.toFixed(2));
 }
 
 // var numbersArray = [1, 2, 3, 4, 5];
