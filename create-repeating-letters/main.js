@@ -2,7 +2,6 @@
 function createRepeatingLetters(word, numOfRepeats) {
   var endResult = '';
   for (var i = 0; i < word.length; i++) {
-    // var letter = word[i];
     for (var x = 0; x < numOfRepeats; x++) {
       endResult += word[i];
     }
