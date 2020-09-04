@@ -6,10 +6,8 @@ function isTheAverageWhole(numbersArray)  {
   var average = total / numbersArray.length;
   // console.log('average of array:', average)
   var stringNum = average.toString();
-  for(var j = stringNum.length - 1; j > 0; j--) {
-    if(stringNum[j].includes('.'))  {
-      return false;
-    }
+  if (stringNum.includes('.')) {
+    return false;
   }
   return true;
 }
