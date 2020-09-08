@@ -1,6 +1,6 @@
 function isWithinRange(number, rangeObject) {
   if(number >= rangeObject.min && number <= rangeObject.max){
-    return true
+    return true;
   } else return false;
 }
 
