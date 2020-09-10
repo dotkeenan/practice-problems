@@ -5,13 +5,12 @@ function wordBuilder(wordToSpell) {
     for(i = 0; i < wordToSpell.length; i++) {
       word += wordToSpell[i];
       wordArray.push(word)
-      console.log('wordArray:', wordArray);
     }
     return wordArray;
   } else return
 }
 
-wordBuilder('hackathon');
-wordBuilder("JavaScript") // -> ["J", "Ja", "Jav", "Java", "JavaS", "JavaSc", "JavaScr", "JavaScri", "JavaScrip", "JavaScript"]
-wordBuilder("Moon") // -> ["M", "Mo", "Moo", "Moon"]
-wordBuilder("Stars") // -> ["S", "St", "Sta", "Star", "Stars"]
+console.log('wordArray:', wordBuilder('hackathon'));
+console.log('wordArray:', wordBuilder('Javascript'));
+console.log('wordArray:', wordBuilder('Moon'));
+console.log('wordArray:', wordBuilder('Stars'));
