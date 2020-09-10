@@ -7,6 +7,7 @@ function wordBuilder(wordToSpell) {
       wordArray.push(word)
       console.log('wordArray:', wordArray);
     }
+    return wordArray;
   } else return
 }
 
