@@ -17,3 +17,13 @@ function zipCodeValidator(zipToValidate)  {
 // console.log('9123465 is a valid zip?',zipCodeValidator("9123465")) // -> false
 // console.log('55555 is a valid zip?',zipCodeValidator("55555")) // -> false
 console.log('ddddd is a valid zip?',zipCodeValidator("ddddd")) // -> false
+
+function zipCodeValidator(zipToValidate)  {
+  for (var i = 0; i < zipToValidate.length; i++)  {
+    parsed = parseInt(zipToValidate[i]);
+
+  }
+}
+
+// cody solution
+// return !isNaN(zipToValidate) && zipToValidate.length === 5
