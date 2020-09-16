@@ -27,10 +27,10 @@ create temporary storage for highest number named highestPay and start it at pay
 check each index of the array with a for loop
 
 on each iteration, check if array[i] < lowestNumber
-if yes, re-assign array[i] to lowest number.
+if yes, assign the value of array[i] to lowestPay.
 
 if above is not true, then check if array[i] > highestNumber
-if yes, re-assign array[i] to highest number.
+if yes, assign the value of array[i] to highestPay.
 
 if neither conditions are met, continue with the next iteration.
 
