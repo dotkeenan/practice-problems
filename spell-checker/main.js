@@ -1,13 +1,16 @@
 function spellChecker(userWords, correctWords)  {
   var spellingObject = {};
   var incorrect = [];
+  var correct = [];
   for (var i = 0; i < userWords.length; i++)  {
     if (userWords[i] !== correctWords[i]) {
       incorrect.push(userWords[i]);
+    } else  {
+      correct.push(userWords[i])
     }
   }
   spellingObject['incorrect'] = incorrect;
-  spellingObject['correct'] = correctWords;
+  spellingObject['correct'] = correct;
   return spellingObject;
 }
 
