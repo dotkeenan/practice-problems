@@ -11,7 +11,7 @@ function dayFinder(stringDate)  {
 console.log(dayFinder("05/22/1946")); // -> "Wednesday"
 console.log(dayFinder("01/20/2001")); // -> "Saturday"
 console.log(dayFinder("03/15/1988")); // -> "Tuesday"
-console.log(dayFinder("09/6/1990")); // -> "Tuesday"
+console.log(dayFinder("09/6/1990")); // -> "Thursday"
 
 /* ------------PseudoCode---------------------
 Create an array named weekday and populate it with strings of days of the week starting from sunday
