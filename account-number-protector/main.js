@@ -17,7 +17,7 @@ function accountNumberProtector(cardNumberString) {
   var protecc = cardNumberString.slice(12);
   return '**' + protecc;
   // cody's efficient way
-  // return '**' + cardNumberString.slice(12);
+  // return '**' + cardNumberString.slice(-4);
 }
 
 console.log(accountNumberProtector("5543223485638832")) // -> "**8832"
