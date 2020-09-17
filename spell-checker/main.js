@@ -26,17 +26,19 @@ with two properties: two arrays in which one array contains misspelled words,
 define a function named spellChecker that takes two parameters: userWords, correctWords
 create an empty object named spellingObject
 create an empty array named incorrect
+create an empty array named correct
 
 use a for loop to check each if the value at each index of userWords is === to
 the value at the same index of correctWords
 
 if it doesn't pass, add userWords[i] to the array named incorrect.
 
+else, if it does pass, add userWords[i] to the array named correct
+
 Stop the loop when there are no more items in the userWords array.
 
 
-add the array named incorrect and function parameter named correctWords
-(which is the array filled with correctly spelled words), to the object
+add the array named incorrect and the array named correct, to the object
 named spellingObject, as properties.
 
 --------------------------------------*/
